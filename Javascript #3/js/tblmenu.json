@@ -1,0 +1,32 @@
+[
+    {
+        "idmenu" : 11,
+        "idkategori" : 37,
+        "menu" : "Mangga",
+        "gambar" : "mangga.jpg",
+        "harga" : 15000,
+        "warna" : ["hijau", "kuning", "orange"],
+        "stok" : true,
+        "keterangan" : null
+},
+    {
+        "idmenu" : 12,
+        "idkategori" : 37,
+        "menu" : "Pisang",
+        "gambar" : "pisang.jpg",
+        "harga" : 8000,
+        "warna" : ["kuning", "hijau"],
+        "stok" : false,
+        "keterangan" : null
+},
+    {
+        "idmenu" : 13,
+        "idkategori" : 37,
+        "menu" : "Apel",
+        "gambar" : "apel.jpg",
+        "harga" : 9000,
+        "warna" : ["merah", "hijau"],
+        "stok" : false,
+        "keterangan" : null
+}
+]
