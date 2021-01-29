@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* Header */
+
+.logo img {
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.header {
+  margin: 1%;
+}
+
+.nav-left,
+.nav-right {
+  background-color: darkolivegreen;
+}
+
+.nav-left ul,
+.nav-right ul {
+  list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(248, 235, 220);
+}
+
+.nav-left a:hover {
+  background: rgb(199, 218, 168);
+}
+
+.nav-right a:hover {
+  background: rgb(199, 218, 168);
+}
+
+@media screen and (min-width: 560px) {
+  .header {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+  }
+
+  .nav-left ul {
+    display: flex;
+  }
+
+  .nav-right ul {
+    display: flex;
+  }
+
+  .nav-left,
+  .nav-right {
+    background-color: #fff;
+  }
+
+  .nav-left a,
+  .nav-right a {
+    color: darkolivegreen;
+  }
+}
+
+/* main */
+
+.main {
+  margin: 25px;
+}
+
+.main-left img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.main-right {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-right h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: darkolivegreen;
+}
+
+.main-right p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+@media (min-width: 560px) {
+  .main {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .main-left img {
+    width: 580px;
+  }
+
+  .main-right {
+    margin: auto;
+    text-align: left;
+    margin-left: 35px;
+  }
+
+  .main-right h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: darkolivegreen;
+  }
+  .main-right p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+}
+
+/* Produk */
+
+.display h2 {
+  margin-top: 2%;
+  text-align: center;
+  color: darkolivegreen;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.image img {
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.produk-content {
+  text-align: center;
+  margin: 20px;
+}
+
+.title h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  color: darkolivegreen;
+  margin-top: 10px;
+}
+
+.deskripsi p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (min-width: 560px) {
+  .produk {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .produk-content {
+    height: 300px;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+
+  .image img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .title h2 {
+    margin-top: -15px;
+  }
+
+  .display h2 {
+    margin-top: 3%;
+    text-align: center;
+    color: darkolivegreen;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    font-style: italic;
+  }
+}
+
+.btn-beli > button {
+  font-size: large;
+  color: rgb(53, 41, 26);
+  width: 70px;
+  height: 30px;
+  background-color: rgb(120, 139, 87);
+  border-radius: 2px;
+}
+
+/* Informasi */
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-content {
+  height: 70px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  width: 50px;
+  display: block;
+  margin-right: 15px;
+}
+
+.info-isi h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: darkolivegreen;
+}
+
+.info-isi p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+@media (min-width: 560px) {
+  .info {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+}
+
+/* Medsos */
+
+.medsos-icon img {
+  width: 30px;
+  margin: 8px;
+}
+
+.medsos-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.medsos-isi p {
+  text-align: center;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: rgb(63, 80, 35);
+}
+
+.medsos-form {
+  height: 50px;
+  background: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medsos-form form input {
+  height: 25px;
+  width: 200px;
+  background-color: rgb(230, 222, 207);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: -4px;
+}
+
+.medsos-form form input[type="email"] {
+  padding: 15px;
+}
+
+.medsos-form form button {
+  height: 30px;
+  margin-left: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(230, 222, 207);
+}
+
+@media (min-width: 560px) {
+  .medsos {
+    width: 960px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .medsos-isi p {
+    text-align: center;
+    padding: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(70, 88, 37);
+  }
+}
+
+/* Footer */
+
+footer {
+  margin-bottom: 100px;
+  background: darkolivegreen;
+  color: rgb(241, 241, 233);
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.logo-bank img {
+  width: 50px;
+}
+
+.identitas {
+  flex: 1;
+}
+
+.sitemap {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.sitemap li {
+  list-style: none;
+  padding-top: 5px;
+}
+
+.sitemap li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.payment {
+  flex: 1;
+}
+
+.sitemap h2,
+.identitas h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.identitas p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.sitemap a {
+  font-size: 13px;
+}
+
+.bank {
+  padding-bottom: 10px;
+}
+
+.bank h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+
+.bank p {
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 560px) {
+  footer {
+    width: 960px;
+    margin: auto;
+  }
+
+  .identitas h2,
+  .sitemap h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .sitemap li a {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .identitas p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .logo-bank img {
+    width: 65px;
+  }
+}
